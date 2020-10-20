@@ -1,0 +1,74 @@
+#page-dashboard {
+  display: flex;
+  min-height: 100vh;
+} 
+
+#page-dashboard main {
+  flex: 1;
+}
+
+#page-dashboard main h2 {
+  width: 100%;
+
+  padding: 40px 200px 10px;
+  color: #5C8599;
+}
+
+#page-dashboard main fieldset {
+  border: 0;
+}
+
+#page-dashboard main .nenhum {
+  position: absolute;
+  margin: 11% 45%;
+  color: #8FA7B2;
+  width: 180px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#page-dashboard main .map-container {
+  margin-left: 200px;
+  width: 450px;
+  margin-top: 20px;
+  background: #E6F7FB;
+  border: 1px solid #B3DAE2;
+  border-radius: 20px;
+}
+
+#page-dashboard main .map-container .leaflet-container {
+  border-bottom: 1px solid #DDE3F0;
+  border-radius: 20px;
+}
+
+#page-dashboard main .map-container footer {
+  background: #fff;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#page-dashboard main .map-container footer a {
+  text-decoration: none;
+  color: #5C8599;
+  font-weight: 700;
+}
+
+#page-dashboard main .map-container footer button {
+  width: 48px;
+  height: 48px;
+  background: #EBF2F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 12px;
+}

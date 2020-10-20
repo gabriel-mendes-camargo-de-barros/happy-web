@@ -8,6 +8,7 @@ import OrphanagesMap from './pages/OrphanagesMap';
 import AcessoRestrito from './pages/AcessoRestrito';
 // import FamiliaAcolhedora from './pages/FamiliaAcolhedora';
 import Dashboard from './pages/Dashboard';
+import Pendentes from './pages/Pendentes';
 
 function Routes() {
     return(
@@ -18,6 +19,7 @@ function Routes() {
                 
                 <Route path="/acesso-restrito" exact component={AcessoRestrito} />
                 <Route path="/acesso-restrito/dashboard" exact component={Dashboard} />
+                <Route path="/acesso-restrito/pendentes" exact component={Pendentes} />
                 <Route path="/orphanages/create" exact component={CreateOrphanage} />
                 <Route path="/orphanages/:id" component={Orphanage} />
             </Switch>
