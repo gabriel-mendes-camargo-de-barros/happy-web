@@ -1,0 +1,178 @@
+#page-acesso-restrito {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+
+  display: flex;
+}
+#page-acesso-restrito aside {
+  width: 60%;
+  background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+  padding: 180px 380px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-acesso-restrito aside header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-acesso-restrito aside header h1 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 82px;
+}
+
+#page-acesso-restrito aside footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  width: 200px;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+#page-acesso-restrito aside footer strong {
+  font-weight: 800;
+}
+
+#page-acesso-restrito main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-acesso-restrito .go-back{
+  width: 48px;
+  height: 48px;
+
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  border: 0;
+
+  background: #EBF2F5;
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-acesso-restrito .go-back:hover {
+  background: #96FEFF;
+}
+
+#page-acesso-restrito form.restrito-form {
+  margin-top: 40px;
+  width: 100%;
+
+  padding: 64px 60px;
+  color: #5C8599;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-acesso-restrito form.restrito-form h2 {
+  width: 380px;
+  display: flex;
+  justify-content: left;
+}
+
+#page-acesso-restrito form.restrito-form div {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-acesso-restrito form.restrito-form div label {
+  font-size: 16px;
+  width: 380px;
+  display: flex;
+  justify-content: left;
+}
+
+#page-acesso-restrito form.restrito-form div input {
+  margin-top: 5px;
+  width: 380px;
+  height: 40px;
+  color: #5C8599;
+  background: #F5F8FA;
+  border: 1px solid #D3E2E5;
+  border-radius: 12px;
+}
+
+#page-acesso-restrito form.restrito-form div.check {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-acesso-restrito form.restrito-form div.check input{
+  margin-top: 0;
+  width: 20px;
+  height: 20px;
+  background: #D3E2E5;
+}
+
+#page-acesso-restrito form.restrito-form div.check label {
+  width: 100px;
+  margin-right: 70px;
+}
+
+#page-acesso-restrito form.restrito-form div.check .link {
+  text-decoration: none;
+  color: #5C8599;
+  width: 180px;
+  transition: background-color 0.2s;
+}
+
+#page-acesso-restrito form.restrito-form div.check .link:hover {
+  font-weight: 700;
+}
+
+#page-acesso-restrito form.restrito-form .disable {
+  width: 90%;
+  height: 60px;
+  font-size: 20px;
+  color: #fff;
+  background: rgba(55, 199, 127, 0.5);
+  border-radius: 12px;
+  border: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#page-acesso-restrito form.restrito-form .enable {
+  width: 90%;
+  height: 60px;
+  font-size: 20px;
+  color: #fff;
+  background:#37C77F;
+  border-radius: 12px;
+  border: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
